@@ -1,0 +1,64 @@
+html, body {
+  background: url(../assets/images/bg.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+}
+
+* {
+  border-radius:0 !important;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 200;
+  color:white;
+}
+
+.container {
+
+  background:transparent !important;
+
+}
+
+
+.view {
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.36) !important;
+  text-align: center;
+  color: white;
+  padding:40px 20px 40px 20px;
+  width:100%;
+  border-top: 1px solid rgb(57, 150, 242);
+  border-bottom: 1px solid rgb(57, 150, 242);
+
+}
+
+.view h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.view h3 {
+  text-transform:uppercase;
+  font-weight:100;
+
+}
+
+button {
+  display:block;
+  background: transparent !important;
+  border:1px solid white !important;
+  width:100px;
+  outline:none;
+}
+
+
